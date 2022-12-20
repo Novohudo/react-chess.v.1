@@ -1,6 +1,10 @@
-* {
-      margin: 0;
+*{
+      margin: 0 auto;
       padding: 0;
+
+}
+body{
+      background-color: #030000;
 }
 
 .app {
@@ -25,11 +29,16 @@
       justify-content: center;
       align-items: center;
 }
-
+.cell img{
+      width: 48px;
+      height: 48px;
+      position: relative;
+}
 .black {
       background-color: deepskyblue;
 }
 
 .white {
       background-color: #eed4ac;
+
 }
