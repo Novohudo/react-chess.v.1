@@ -1,12 +1,16 @@
 *{
       margin: 0 auto;
       padding: 0;
-
+      color: white;
 }
 body{
       background-color: #030000;
 }
-
+button{
+      padding: 8px;
+      background-color: #484848;
+      border: none;
+}
 .app {
       width: 100vw;
       height: 100vh;
@@ -50,4 +54,10 @@ body{
       width: 12px;
       border-radius: 50%;
       background-color: #22c022;
+}
+.lost{
+      height: calc(50vh - 60px);
+      padding:30px;
+      margin-left: 50px;
+      background-color: #363636;
 }
